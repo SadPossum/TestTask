@@ -32,7 +32,7 @@ import axios from "axios";
 export default {
   data: () => ({
     selectedItem: 1,
-    items: ["ddsfrsd"],
+    items: [],
     dataLoading: false
   }),
 

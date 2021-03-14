@@ -1,0 +1,34 @@
+{
+	"info": {
+		"_postman_id": "9ece43b2-6a7a-4f60-92f8-0a794292c1b3",
+		"name": "Postman Test Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET",
+			"item": [
+				{
+					"name": "List lines",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Values",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Values"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
